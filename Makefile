@@ -8,3 +8,6 @@ srcComplexity.o : srcComplexity.cpp srcMLXPathCount.hpp
 
 srcMLXPathCount.o : srcMLXPathCount.cpp srcMLXPathCount.hpp
 	g++ -std=c++17 -c srcMLXPathCount.cpp
+
+srcMLXPathCountTest.o : srcMLXPathCountTest.cpp srcMLXPathCount.hpp
+	g++ -std=c++17 -c srcMLXPathCountTest.cpp
